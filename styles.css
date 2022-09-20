@@ -202,7 +202,7 @@ body{
         
     }
     .card1 p{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .card1 h2{
         font-size: 2.5rem;
@@ -214,7 +214,7 @@ body{
         
     }
     .card2 p{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
 
     }
     .card2 h2{
@@ -226,7 +226,7 @@ body{
         flex-basis: fit-content;
     }
     .card3 p{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .card3 h2{
         font-size: 2.5rem;
