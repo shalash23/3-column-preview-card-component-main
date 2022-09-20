@@ -191,7 +191,7 @@ main{
 }
 
 
-@media only screen and (min-height:760px){
+@media only screen and (min-width:850px){
     .container{
         display:flex;
         flex-direction: row;
@@ -204,7 +204,8 @@ main{
         
     }
     .card1 p{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        padding: 2rem 0;
     }
     .card1 h2{
         font-size: 2.5rem;
@@ -214,7 +215,8 @@ main{
         
     }
     .card2 p{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        padding:2rem 0;
     }
     .card2 h2{
         font-size: 2.5rem;
@@ -224,9 +226,27 @@ main{
         height:60vh;
     }
     .card3 p{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        padding:2rem 0;
     }
     .card3 h2{
         font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-height:1000px){
+    .container{
+        width:80%;
+    }
+    .card1 p{
+        font-size:1.4rem;
+    }
+    
+    .card2 p{
+        font-size: 1.4rem;
+    }
+    
+    .card3 p{
+        font-size: 1.4rem;
     }
 }
