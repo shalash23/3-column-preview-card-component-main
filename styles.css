@@ -8,8 +8,9 @@
     --family-lexend: "Lexend Deca", sans-serif;
 }
 
-* {
-
+*{
+    margin:0;
+    padding:0;
     box-sizing: border-box;
     
 }
@@ -24,8 +25,8 @@
     color: hsl(228, 45%, 44%);
 }
 
-main{
-    background-color: var(--transparent-white);
+body{
+    background-color: var(--very-light-gray);
 }
 
 .container {
@@ -130,7 +131,7 @@ main{
 
 .card3 {
     background-color: var(--very-dark-cyan);
-    padding:2rem 2.5rem;
+    padding:2rem 2.2rem;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     
@@ -196,24 +197,25 @@ main{
     }
     .card1{
         height:70vh;
+        flex-basis: fit-content;
          
         
     }
     .card1 p{
         font-size: 1.5rem;
-        padding: 2rem 0;
     }
     .card1 h2{
         font-size: 2.5rem;
     }
     .card2{
         height:70vh;
+        flex-basis: fit-content
         
         
     }
     .card2 p{
         font-size: 1.5rem;
-        padding:2rem 0;
+
     }
     .card2 h2{
         font-size: 2.5rem;
@@ -221,29 +223,12 @@ main{
     
     .card3{
         height:70vh;
+        flex-basis: fit-content;
     }
     .card3 p{
         font-size: 1.5rem;
-        padding:2rem 0;
     }
     .card3 h2{
         font-size: 2.5rem;
-    }
-}
-
-@media only screen and (min-height:1000px){
-    .container{
-        width:80%;
-    }
-    .card1 p{
-        font-size:1.4rem;
-    }
-    
-    .card2 p{
-        font-size: 1.4rem;
-    }
-    
-    .card3 p{
-        font-size: 1.4rem;
     }
 }
